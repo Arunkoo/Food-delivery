@@ -8,11 +8,7 @@ A fully-featured food delivery website built using the MERN stack (MongoDB, Expr
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Overview
 
@@ -31,7 +27,7 @@ This project aims to provide a seamless online food ordering experience for user
 
 ## Technologies Used
 
-- **Frontend**: React, Redux, HTML, CSS, Bootstrap
+- **Frontend**: React, HTML, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
