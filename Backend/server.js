@@ -17,8 +17,8 @@ connectDB();
 // middleware
 const corsOptions = {
   origin: [
-    "https://food-delivery-frontendnew.vercel.app/",
-    "https://https://food-delivery-admin12panel.vercel.app/",
+    "https://food-delivery-frontendnew.vercel.app",
+    "https://https://food-delivery-admin12panel.vercel.app",
   ],
   credentials: true,
 };
