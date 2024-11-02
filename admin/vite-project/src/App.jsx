@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
-  const url = "https://food-delivery-9fv4c5dtf-arunkoos-projects.vercel.app";
+  const url = "https://food-delivery-9gy7dsvz6-arunkoos-projects.vercel.app";
   return (
     <div>
       <ToastContainer />
