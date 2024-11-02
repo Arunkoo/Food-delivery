@@ -15,8 +15,17 @@ const app = express();
 connectDB();
 
 // middleware
-app.use(cors());
+const corsOptions = {
+  origin: [
+    "https://https://food-delivery-frontend-kappa.vercel.app/",
+    "https://https://food-delivery-admin12panel.vercel.app/",
+  ],
+  credentials: true,
+};
 app.use(express.json());
+import cors from "cors";
+
+app.use(cors(corsOptions));
 
 // api endpoint..
 app.use("/food", foodRoute);
