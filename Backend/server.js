@@ -25,7 +25,7 @@ app.use("/cart", cartRoute);
 app.use("/order", orderRouter);
 app.use("/images", express.static("uploads"));
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
